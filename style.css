@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono&family=Rubik:wght@300&family=Source+Sans+Pro&display=swap');
+
 head{
     font-family: 'Roboto Mono', monospace;
 font-family: 'Rubik', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
+
 }
 .first-section{
     background-image: url(images/donation13.jpg);
@@ -16,7 +19,7 @@ font-size:medium;
 .heading-description{
     text-align: center;
     padding-top: 60px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 
    
 }
@@ -187,54 +190,60 @@ font-size:medium;
 .get-update-explain-and-heading{
     text-align: center;
 }
-#contact-info{
+.heading-and-explain{
+    text-align: center;
+}
+.sixth-section .outer-details-box{
     border-radius: 0px;
     color: rgb(0, 0, 0);
-    background-color: rgb(225, 208, 153);
+    background-color: rgb(241, 221, 183);
     padding: 10px 30px;
+    height: 90px;
+    margin-right: 150px;
     margin-left: 200px;
-    margin-right: 90px;
-    height: 60px;
-}
-#inner-email-box{
     
-    color: rgb(0, 0, 0);
-    background-color: rgba(173, 168, 168, 0.843);
-    padding: 4px 5px;
-    margin-right: +300px;
-    margin-left:- 310px;
-    margin-bottom:60px ;
-    margin-top: +13px;
-   height: 20px;
-   width: 290px;
-}
-#contact-info{
-    display: flex;
-}
-#mail-submit-button{
-    text-decoration:none;
-    text-align: center;
-    color: aliceblue;
-    background-color: orange;
-    padding: 4px 5px;
-   margin-top: +11px;
-   margin-left: -100px;
-   margin-right:+ 90%;
 
-    height: 20px;
-   width: 160px;
 }
-.get-my-updates-part{
-   
-   
-}
+
 footer{
     text-align: center;
     background-color: black;
-    color: rgb(190, 12, 12);
-    font-style: italic;
+    color: aliceblue;
 }
-.be-humble{
+#be-humble{
+    color: rgb(232, 15, 11);
     
-    color: rgb(247, 247, 247);
+    font-family: 'Lobster', cursive;
 }
+#stay-focused{
+    font-weight:10;
+}
+.email-box{
+
+    background-color: rgba(195, 196, 202, 0.625);
+    border: 0ch;
+    height: 30px;
+    border-radius: 4px;
+    margin-left:140px ;
+    margin-top: 30px;
+    margin-right:50px;
+    
+}
+.email-button{
+    background-color: rgba(241, 25, 9, 0.625);
+     text-decoration: none;
+    height: 30px;
+   color: aliceblue;
+    padding: 6px 90px 9px 9px;
+    border-radius: 4px;
+    text-align: center;
+}
+.sixth-section{
+    margin-bottom: 60px;
+    
+}
+.fifth-section{
+    margin-bottom: 60px;
+}
+
+
