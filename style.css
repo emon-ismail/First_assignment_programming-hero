@@ -9,6 +9,7 @@ font-family: 'Source Sans Pro', sans-serif;
 .first-section{
     background-image: url(images/donation13.jpg);
     height: 300px;
+    margin-bottom:10px;
    
 
 }
@@ -52,6 +53,7 @@ font-size:medium;
    padding: 20px 40px;
     color: rgb(201, 19, 19);
     margin-left: 20px;
+    
     
 }
 #tin-hajar-taka{
@@ -153,6 +155,7 @@ font-size:medium;
 }
 .fourth-secton{
     display: flex;
+    margin-top: 50px;
 }
 .they-are-depends-on-us{
     display: flex;
@@ -244,6 +247,30 @@ footer{
 }
 .fifth-section{
     margin-bottom: 60px;
+    margin-top: 50px;
+}
+.third-section{
+    margin-top: 30px;
+}
+.Experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-right: 5%;
+    margin-left:5%;
+    padding:20px;
+    border-radius: 15px;
+    border-left:  7px solid blue ;
+
 }
 
+#full-stack{
+    border-left: 5px solid rgb(227, 117, 14);
+}
+.Flexible-container{
+    display: flex;
+    margin-bottom: 40px;
+}
+.down-part{
+    margin-top: 30px;
+}
 
