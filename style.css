@@ -10,7 +10,7 @@ font-family: 'Source Sans Pro', sans-serif;
 
 }
 p{
-font-size:x-large;
+font-size:medium;
 
 }
 .heading-description{
@@ -21,11 +21,220 @@ font-size:x-large;
    
 }
 .donate-now-button{
+    text-decoration:none;
+    background-color: orange;
+    padding: 10px 30px;
+    border-radius: 10px;
+
+}
+.donation-for{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.donation-taka{
+    display: flex;
+
+}
+#ek-hajar-taka{
+    margin-left: 240px;
+    border-radius: 0px;
+    background-color: rgb(253, 249, 243);
+    color: rgb(8, 0, 0);
+    padding: 20px 30px;
+}
+#dui-hajar-taka{
+    border-radius: 0px;
+    background-color: rgb(208, 201, 201);
+   padding: 20px 40px;
+    color: rgb(201, 19, 19);
+    margin-left: 20px;
+    
+}
+#tin-hajar-taka{
+    border-radius: 0px;
+    color: rgb(12, 0, 0);
+    padding: 20px 30px;
+    background-color: rgb(253, 249, 243);
+    margin-left: 20px;
+
+}
+#char-hajar-taka{
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(253, 249, 243);
+    padding: 10px 30px;
+    margin-left: 20px;
+}
+#pach-hajar-taka{
+    border-radius: 0px;
+    margin-left: 20px;
+    color: rgb(1, 0, 0);
+    background-color: rgb(253, 249, 243);
+    padding: 10px 30px;
+}
+#other-amount{
+    text-align: center;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    
+}
+.second-donate-now-button{
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    background-image: linear-gradient(rgb(255, 129, 4), rgb(205, 143, 21));
+   border-radius: 10px;
+   padding: 15px 40px;
+   margin-left: 490px;
+   
+
+}
+.rice-food{
+   
+    height: 30px;
+        width: 40px;
+        display: block;
+}
+.donate-plan{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.donate-for-whom{
+    display: flex;
+    
+
+}
+.family-pic{
+    
+    height: 30px;
+        width: 40px;
+        display: block;
+}
+.education-child-pic{
+    height: 30px;
+    width: 40px;
+    display: block;
+
+}
+#food-for-family{
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(179, 193, 239);
+    padding: 10px 30px;
+    margin-left: 20px;
+    
+
+}
+#shelter-family{
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 153, 230);
+    padding: 10px 30px;
+    margin-left: 20px;
+
+}
+#education-child{
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(239, 208, 161);
+    padding: 10px 30px;
+    margin-left: 20px;
+    
+}
+.donate-for-whom{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.fourth-secton{
+    display: flex;
+}
+.they-are-depends-on-us{
+    display: flex;
+}
+.poor-people{
+    width: 35%;
+    height: 80%;
+    margin-left: 40px;
+    margin-right: 120px;
+}
+.why-donation-heading-explain{
+  
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+.how-to-contribute{
     text-decoration: none;
     text-align: center;
     color: aliceblue;
     background-image: linear-gradient(rgb(255, 129, 4), rgb(205, 143, 21));
    border-radius: 50px;
    padding: 10px 30px;
+   
+}
+.flexible-container{
+    
+    margin-left: 100px;
+}
+.they-need-to-survive{
+    display: flex;
+}
+.get-update-explain-and-heading{
+    text-align: center;
+}
+#contact-info{
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(225, 208, 153);
+    padding: 10px 30px;
+    margin-left: 200px;
+    margin-right: 90px;
+    height: 60px;
+}
+#inner-email-box{
+    
+    color: rgb(0, 0, 0);
+    background-color: rgba(173, 168, 168, 0.843);
+    padding: 4px 5px;
+    margin-right: +300px;
+    margin-left:- 310px;
+    margin-bottom:60px ;
+    margin-top: +13px;
+   height: 20px;
+   width: 290px;
+}
+#contact-info{
+    display: flex;
+}
+#mail-submit-button{
+    text-decoration:none;
+    text-align: center;
+    color: aliceblue;
+    background-color: orange;
+    padding: 4px 5px;
+   margin-top: +11px;
+   margin-left: -100px;
+   margin-right:+ 90%;
 
+    height: 20px;
+   width: 160px;
+}
+.get-my-updates-part{
+   
+   
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: rgb(190, 12, 12);
+    font-style: italic;
+}
+.be-humble{
+    
+    color: rgb(247, 247, 247);
 }
